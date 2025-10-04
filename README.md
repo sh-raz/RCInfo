@@ -50,7 +50,7 @@ No keys or secrets needed.
 
 ---
 ## 🎥 Demo
-▶️ [Watch the demo](docs/RCInfo demo.mp4)
+▶️ [Watch the demo](docs/RCInfoDemo.mp4)
 
 
 ---
