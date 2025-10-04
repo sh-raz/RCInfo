@@ -34,8 +34,8 @@ class RCPopulationDetailsVC: RCInfoDetailsVC {
     private func configure() {
         infoViewOne.set(detailTitle: .region, with: country.region)
         infoViewTwo.set(detailTitle: .subregion, with: country.subregion ?? "No subregion")
-        button.set(backgroundColor: UIColor(resource: .darkBlue), title: "Region")
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.set(backgroundColor: UIColor(resource: .darkBlue), title: "Read on Wikipedia")
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
     }
     
     override func buttonPressed() {

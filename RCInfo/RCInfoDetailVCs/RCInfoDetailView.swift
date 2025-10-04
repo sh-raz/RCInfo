@@ -84,11 +84,11 @@ class RCInfoDetailView: UIView {
         case .region:
             symbolImageView.image = UIImage(systemName: "map.circle.fill")
             titleLabel.text = "Region"
-            print(detailTitle)
+            
         case .subregion:
             symbolImageView.image = UIImage(systemName: "map.circle")
             titleLabel.text = "Subregion"
-            print(detailTitle)
+            
         case .currencies:
             symbolImageView.image = UIImage(systemName: "dollarsign.arrow.circlepath")
             titleLabel.text = "Currency"
